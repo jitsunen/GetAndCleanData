@@ -22,13 +22,6 @@ The tidy data set is stored in a file called mean_by_subject_activity.txt. Its a
 * subject_id: Numeric identifier of human subject, as read from 'subject_*' files from original data set. 
 * aggregated mean of measurements: Rest of the column title begin with 'aggr. mean' and represent the aggregated mean of the measurements from both the train and test data sets, averaged for each subject and activity. Only the mean and std measurements from the original data sets are exported to the tidy data set.
 
-Readmes, how to use them in your own application can be found here:
-
-* [plugins/dropbox/README.md](https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md)
-* [plugins/github/README.md](https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md)
-* [plugins/googledrive/README.md](https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md)
-* [plugins/onedrive/README.md](https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md)
-
 ### Steps to transform original data set to tidy data set
 
 1. Read features' names and their ids. Store in a data frame with names feature_id and feature.
