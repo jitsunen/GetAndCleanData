@@ -9,18 +9,18 @@ This code book describes:
 
 The original data set can be downloaded from here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
 The data consists of various measurements taken from a mobile device while human subjects perform various activities like walking, sitting, lying down, etc. The various files in this data set consist of the following data:
-* The activities are listed in a file called _activity_labels.txt_**. 
-* The measurements, also called features, are listed in a file called _features.txt_**. 
-* The human subjects who performed these activities are identified by a numeric number and are listed in files which have prefix _'subject_'_**. The order of the subjects in this file is the same as the order of the measurements in the corresponding files.
-* The data set is divided into a train and a test set for machine learning purposes. The measurement variables are stored in files prefixed with _'X_'_** and the predicted variables, the activities, are stored in files prefixed with _'y_'_**.
+* The activities are listed in a file called **_activity_labels.txt_**. 
+* The measurements, also called features, are listed in a file called **_features.txt_**. 
+* The human subjects who performed these activities are identified by a numeric number and are listed in files which have prefix **_'subject_'_**. The order of the subjects in this file is the same as the order of the measurements in the corresponding files.
+* The data set is divided into a train and a test set for machine learning purposes. The measurement variables are stored in files prefixed with **_'X_'_** and the predicted variables, the activities, are stored in files prefixed with **_'y_'_**.
 
 ### Tidy Data
 
-The tidy data set is stored in a file called _'mean_by_subject_activity.txt'_**. Its a comma separated file with headers for each column. It consists of the following columns:
+The tidy data set is stored in a file called **_'mean_by_subject_activity.txt'_**. Its a comma separated file with headers for each column. It consists of the following columns:
 
-* _activity_**: Activity identifier, as read from the activity_labels.txt file from the original data set.
-* _'subject_id'_**: Numeric identifier of human subject, as read from _'subject_*'_** files from original data set. 
-* _aggregated mean of measurements_**: Rest of the column title begin with _'aggr. mean'_** and represent the aggregated mean of the measurements from both the train and test data sets, averaged for each subject and activity. Only the mean and std measurements from the original data sets are exported to the tidy data set.
+* **_activity_**: Activity identifier, as read from the activity_labels.txt file from the original data set.
+* **_'subject_id'_**: Numeric identifier of human subject, as read from **_'subject_*'_** files from original data set. 
+* **_aggregated mean of measurements_**: Rest of the column title begin with **_'aggr. mean'_** and represent the aggregated mean of the measurements from both the train and test data sets, averaged for each subject and activity. Only the mean and std measurements from the original data sets are exported to the tidy data set.
 
 ### Steps to transform original data set to tidy data set
 
